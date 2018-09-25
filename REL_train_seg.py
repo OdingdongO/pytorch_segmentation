@@ -14,7 +14,9 @@ import argparse
 from dataset.data_aug import UpperCrop,RandomUpperCrop
 from dataset.data_aug import Cbct_crop, Cbct_random_crop,Hflip
 import glob
-
+'''
+https://challenger.ai/competition/fl2018
+'''
 parser = argparse.ArgumentParser()
 parser.add_argument('--batch_size', type=int, default=4, help='size of each image batch')
 parser.add_argument('--learning_rate', type=float, default=0.0001, help='learning rate')
